@@ -248,7 +248,6 @@ header{
 	height: 1.46rem;
 	position: relative;
 	display: inline-block;
-	color: #BDBDBD;
 }
 .homepage_ico1{
 	font-family: 'iconfont';
@@ -265,6 +264,10 @@ header{
 	left: .96rem;
 	display: inline-block;
 }
-.homepage_bigbottom_0{
+
+.homepage_bigbottom_1 a{
+	color: #BDBDBD;
+}
+.homepage_bigbottom_0 a{
 	color: #F0403C;
 }
