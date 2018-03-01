@@ -1,0 +1,137 @@
+
+@font-face {
+  font-family: 'iconfont';  /* project id 572320 */
+  src: url('https://at.alicdn.com/t/font_572320_60yn9fiao2sm7vi.eot');
+  src: url('https://at.alicdn.com/t/font_572320_60yn9fiao2sm7vi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_572320_60yn9fiao2sm7vi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_572320_60yn9fiao2sm7vi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_572320_60yn9fiao2sm7vi.svg#iconfont') format('svg');
+}
+
+
+.homepage_top::-webkit-scrollbar{
+	display: none;/* 实现元素显示隐藏 *//* 消失 */
+	display: block;
+}
+head h1{   
+	font-size:100%;   
+	font-weight:normal; 
+}
+body{
+	font-size: 0.12rem;
+	background-color: #fff;
+}
+
+#fenlei{
+	/* width: 100vw;设置一屏
+	height: 100vh;设置一屏
+	background-color: plum;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 999; */
+	/* position: absolute; */
+	/* position: relative; */
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+header{
+	width: 100%;
+	height: 1.46rem;
+	background-color: #F04449;
+	padding: 0 0.45rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+	z-index:9999;
+  	position:fixed;/*固定作用*/
+  	top:0px;
+ 
+  
+}
+.search{
+	width: 9.9rem;
+	height: 1.08rem;
+	background-color: #EBE9EA;
+	border: 0;
+	border-radius: .2rem;
+	margin-top: 0.21rem;
+	font-family: 'iconfont';
+}
+
+
+
+
+.fenlei_imgback{
+	width: 9.9rem;
+	height: 2.79rem;
+	margin: 0.39rem 0.45rem 0.28rem;
+	margin-top: 2rem;
+	display: inline-block;
+}
+.fenlei_imgbacksmall{
+	width: 2.38rem;
+	height: 2.79rem;
+	display: inline-block;
+}
+.fenlei_img1{
+	width: 1.8rem;
+	height: 1.8rem;
+	margin-left: 0.3rem;
+	line-height: 1.2rem;
+	float: left:;
+}
+.fenlei_imgbacksmall {
+	text-align: center;
+}
+.fenlei_imgback000{
+	width: 9.9rem;
+	height: 2.79rem;
+	margin: 0.39rem 0.45rem 0.28rem;
+	margin-top: -0.5rem;
+	display: inline-block;
+}
+
+
+
+.homepage_bigbottom{
+	z-index:9999;
+  	position:fixed;/*固定作用*/
+  	bottom: 0px;
+	width: 100%;
+	height: 1.46rem;
+	background-color: #fff;
+	border-top: 0.03rem solid #D6D6D6;
+
+}
+.homepage_bigbottom_1{
+	width: 2.6rem;
+	height: 1.46rem;
+	position: relative;
+	display: inline-block;
+	color: #BDBDBD;
+}
+.homepage_ico1{
+	font-family: 'iconfont';
+	font-size: 0.66rem;
+	position: absolute;
+	top: 0.1rem;
+	left: 1rem;
+	display: inline-block;
+}
+.homepage_ico1_word{
+	font-size: 0.27rem;
+	position: absolute;
+	bottom: 0.11rem;
+	left: .96rem;
+	display: inline-block;
+}
+.homepage_bigbottom_0{
+	color: #F0403C;
+}

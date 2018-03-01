@@ -1,0 +1,237 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 572320 */
+  src: url('https://at.alicdn.com/t/font_572320_1uvyvmvmfih5xw29.eot');
+  src: url('https://at.alicdn.com/t/font_572320_1uvyvmvmfih5xw29.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_572320_1uvyvmvmfih5xw29.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_572320_1uvyvmvmfih5xw29.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_572320_1uvyvmvmfih5xw29.svg#iconfont') format('svg');
+}
+
+
+
+.homepage_top::-webkit-scrollbar{
+	display: none;/* 实现元素显示隐藏 *//* 消失 */
+	display: block;
+}
+head h1{   
+	font-size:100%;   
+	font-weight:normal; 
+}
+body{
+	font-size: 0.12rem;
+	background-color: #fff;
+}
+
+#jingxuan{
+	/* width: 100vw;设置一屏
+	height: 100vh;设置一屏
+	background-color: plum;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 999; */
+	/* position: absolute; */
+	/* position: relative; */
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+header{
+	width: 100%;
+	height: 1.46rem;
+	padding: 0 0.45rem;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+	z-index:9999;
+  	position:fixed;/*固定作用*/
+  	top:0px;
+ 	border-top: 0.03rem solid #E4E6E5;
+  
+}
+.jingxuan_title{
+	margin: auto;
+	font-size: 0.41rem;
+}
+.jingxuan_search{
+	font-family: 'iconfont';
+	font-size: 0.5rem;
+	line-height: 1.46rem;
+}
+.jingxuan_bannerback{
+	width: 100%;
+	height: 4.61rem;
+	margin-top: 1.46rem;
+	padding-top: 0.01rem;
+	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	overflow-x:scroll;
+}
+.jingxuan_bannerimg1{
+	width: 7.32rem;
+	height: 3.89rem;
+	margin:  0 auto;
+	margin-top: .3rem;
+	float: left;
+}
+.jingxuan_bannerimg2{
+	width: 7.32rem;
+	height: 3.89rem;
+	margin:  0 auto;
+	margin-top: .3rem;
+
+}
+.jingxuan_word{
+	width: 9.36rem;
+	height: .45rem;
+	margin-top: 0.35rem;
+	margin-left: 0.72rem;
+}
+.jingxuan_word li{
+	width: 2.8rem;
+	height: 100%;
+	padding-top: 0.01rem;
+	display: inline-block;
+}
+.jingxuan_word1{
+	font-family: 'iconfont';
+	color: #b0b0b0;
+	margin-left: 0.7rem;
+}
+
+
+
+
+
+.imgback_top{
+	margin-top: 0.7rem;
+	display: inline-block;
+}
+
+.imgback_bottom{
+	margin-bottom: 1.4rem;
+}
+.jingxuan_imgback{
+	width: 10.64rem;
+	height: 3.95rem;
+	margin-left: 0.16rem;
+	padding-top: 0.01rem;
+	display: inline-block;
+	position: relative;
+}
+.line{
+	position: absolute;
+	width: 6.75rem;
+	bottom: 0;
+	right: 0;
+	border: 0.03rem solid #DFDFDF;
+}
+.jingxuan_img1{
+	width: 3.59rem;
+	height: 3.59rem;
+	margin-top: 0.26rem;
+	display: inline-block;
+}
+.jingxuan_imgword{
+	width: 6.61rem;
+	height: 3rem;
+	float: right;
+	display: inline-block;
+}
+.jingxuan_imgword1{
+	font-size: 0.37rem;
+	margin-top: 0.25rem;
+	/* margin-left: 0.44rem; */
+}
+.jingxuan_imgword2back{
+	width: 6.28rem;
+	height: .49rem;
+	margin-top: 0.15rem;
+/* 	margin-left: 0.44rem; */
+	color: #b0b0b0;
+}
+.jingxuan_imgword2{
+	font-size: 0.37rem;
+	float: left;
+}
+.jingxuan_imgword3{
+	font-size: 0.37rem;
+	float: right;
+}
+.jingxuan_price{
+	width: 1.4rem;
+	height: 1.3rem;
+	display: inline-block;
+	margin-top: 0.5rem;
+	float: left;
+	margin-left: -2.3rem;
+}
+.jingxuan_quan{
+	width: 1.4rem;
+	height: .51rem;
+	background: #FF5B48;
+	color: #FFF1ED;
+	border-radius: 0.1rem;
+}
+.jingxuan_quanword{
+	text-align: center;
+}
+.jingxuan_imgprice{
+	font-size: 0.4rem;
+	font-weight: bold;
+	color: #FF5B48;
+}
+.tianmao{
+	width: 1.24rem;
+	height: 1.24rem;
+	margin-top: 0.3rem;
+	margin-left: 3.7rem;
+	display: inline-block;
+}
+
+
+
+
+.homepage_bigbottom{
+	z-index:9999;
+  	position:fixed;/*固定作用*/
+  	bottom: 0px;
+	width: 100%;
+	height: 1.46rem;
+	background-color: #fff;
+	border-top: 0.03rem solid #D6D6D6;
+
+}
+.homepage_bigbottom_1{
+	width: 2.6rem;
+	height: 1.46rem;
+	position: relative;
+	display: inline-block;
+	color: #BDBDBD;
+}
+.homepage_ico1{
+	font-family: 'iconfont';
+	font-size: 0.66rem;
+	position: absolute;
+	top: 0.1rem;
+	left: 1rem;
+	display: inline-block;
+}
+.homepage_ico1_word{
+	font-size: 0.27rem;
+	position: absolute;
+	bottom: 0.11rem;
+	left: .96rem;
+	display: inline-block;
+}
+.homepage_bigbottom_0{
+	color: #F0403C;
+}
